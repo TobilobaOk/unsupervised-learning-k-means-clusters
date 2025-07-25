@@ -30,3 +30,18 @@ The dataset lacks predefined labels, so we aim to identify distinct clusters of 
 
 **Target:** Unsupervised (no target column)
 
+# EXPLORATORY DATA ANALYSIS
+
+We can see that there are 7050 instances and 16 attributes in the dataset. In the dataset description, it is given that there are 7051 instances and 12 attributes in the dataset.So, we can infer that the first instance is the row header and there are 4 extra attributes in the dataset. Analysis the following to prepare the data:
+
+Handled missing values
+
+Drop redundant columns
+
+Trimmed dataset by dropping status_id and status_published
+
+Normalized/standardized numerical features
+
+Convert category variable into integers
+
+One-hot encoding for categorical data 
