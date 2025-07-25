@@ -12,3 +12,21 @@ Live streaming has become a powerful tool for small businesses to promote and se
 # Problem Statement:
 
 The dataset lacks predefined labels, so we aim to identify distinct clusters of Facebook Live sessions that exhibit similar viewer behavior.
+
+# Dataset Overview
+
+
+**Source:** UCI Machine Learning Repository
+
+**Data Description:** The dataset contains 7050 Facebook live session records with the following key features:
+
+**status_type:** Type of status (live, photo, video, etc.)
+
+**num_reactions, num_comments, num_shares:** Engagement metrics
+
+**num_views:** Number of views
+
+**num_likes, num_loves, num_wows, etc.:** Reaction breakdown
+
+**Target:** Unsupervised (no target column)
+
