@@ -45,3 +45,30 @@ Normalized/standardized numerical features
 Convert category variable into integers
 
 One-hot encoding for categorical data 
+
+#METHODOLOGY
+
+**Unsupervised Learning Technique:** K-Means Clustering
+
+**Reason for Choice:**
+
+Simple and effective for discovering groupings in unlabeled data
+
+Works well with numerical and engagement-based features
+
+**Steps Taken:**
+
+Declare feature vector and target variable
+
+Feature scaling
+
+Fitting K-means model
+
+K-mean model parameters study(inertial)
+
+Check quality of quality of weak classification by the  model
+
+Used elbow method to find optimal number of cluster
+
+K-mean model with different clusters to achieve more relatively high accuracy.
+
