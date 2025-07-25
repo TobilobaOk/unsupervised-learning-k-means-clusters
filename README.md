@@ -91,6 +91,6 @@ I have found that the model has a very high inertia of 899.1609. So, this is not
 
 I have achieved a weak classification accuracy of 1% with k=1 by our unsupervised model.
 
-So, I have changed the value of k and find relatively higher classification accuracy of 61% with k=2.
+So, I have changed the value of k and find relatively higher classification accuracy of 61% with k=2.with a low inertia of 237.7572
 
 
