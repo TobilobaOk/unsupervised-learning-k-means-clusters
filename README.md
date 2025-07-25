@@ -46,7 +46,7 @@ Convert category variable into integers
 
 One-hot encoding for categorical data 
 
-#METHODOLOGY
+# METHODOLOGY
 
 **Unsupervised Learning Technique:** K-Means Clustering
 
@@ -71,4 +71,26 @@ Check quality of quality of weak classification by the  model
 Used elbow method to find optimal number of cluster
 
 K-mean model with different clusters to achieve more relatively high accuracy.
+
+ **Use elbow method to find optimal number of clusters**
+
+So, our weak unsupervised classification model achieved a very weak classification accuracy of 1%. and we check the model accuracy with different numbers of clusters.
+
+**K-Means model with different clusters**
+Result: 4288 out of 7050 samples were correctly labeled.
+Accuracy score: 0.61
+We have achieved a relatively high accuracy of 61% with k=4.
+
+# Results and conclusion
+
+In this project, I have implemented the most popular unsupervised clustering technique called K-Means Clustering.
+
+I have applied the elbow method and found that k=1 (k is number of clusters) can be considered a good number of clusters to cluster this data.
+
+I have found that the model has a very high inertia of 899.1609. So, this is not a good model fit to the data.
+
+I have achieved a weak classification accuracy of 1% with k=1 by our unsupervised model.
+
+So, I have changed the value of k and find relatively higher classification accuracy of 61% with k=2.
+
 
