@@ -34,17 +34,17 @@ The dataset lacks predefined labels, so we aim to identify distinct clusters of 
 
 We can see that there are 7050 instances and 16 attributes in the dataset. In the dataset description, it is given that there are 7051 instances and 12 attributes in the dataset.So, we can infer that the first instance is the row header and there are 4 extra attributes in the dataset. Analysis the following to prepare the data:
 
-Handled missing values
+• Handled missing values
 
-Drop redundant columns
+• Drop redundant columns
 
-Trimmed dataset by dropping status_id and status_published
+• Trimmed dataset by dropping status_id and status_published
 
-Normalized/standardized numerical features
+• Normalized/standardized numerical features
 
-Convert category variable into integers
+• Convert category variable into integers
 
-One-hot encoding for categorical data 
+• One-hot encoding for categorical data 
 
 # METHODOLOGY
 
@@ -52,21 +52,21 @@ One-hot encoding for categorical data
 
 **Reason for Choice:**
 
-Simple and effective for discovering groupings in unlabeled data
+• Simple and effective for discovering groupings in unlabeled data
 
-Works well with numerical and engagement-based features
+• Works well with numerical and engagement-based features
 
 **Steps Taken:**
 
-Declare feature vector and target variable
+• Declare feature vector and target variable
 
-Feature scaling
+• Feature scaling
 
-Fitting K-means model
+• Fitting K-means model
 
-K-mean model parameters study(inertial)
+• K-mean model parameters study(inertial)
 
-Check quality of quality of weak classification by the  model
+• Check quality of quality of weak classification by the  model
 
 Used elbow method to find optimal number of cluster
 
@@ -85,12 +85,12 @@ We have achieved a relatively high accuracy of 61% with k=4.
 
 In this project, I have implemented the most popular unsupervised clustering technique called K-Means Clustering.
 
-I have applied the elbow method and found that k=1 (k is number of clusters) can be considered a good number of clusters to cluster this data.
+• I have applied the elbow method and found that k=1 (k is number of clusters) can be considered a good number of clusters to cluster this data.
 
-I have found that the model has a very high inertia of 899.1609. So, this is not a good model fit to the data.
+• I have found that the model has a very high inertia of 899.1609. So, this is not a good model fit to the data.
 
-I have achieved a weak classification accuracy of 1% with k=1 by our unsupervised model.
+• I have achieved a weak classification accuracy of 1% with k=1 by our unsupervised model.
 
-So, I have changed the value of k and find relatively higher classification accuracy of 61% with k=2.with a low inertia of 237.7572
+• So, I have changed the value of k and find relatively higher classification accuracy of 61% with k=2.with a low inertia of 237.7572
 
 
